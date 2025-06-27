@@ -1,5 +1,3 @@
-defaultInputs = [ nixpkgs.reveal-md ];
-
 {
   description = "Nix Presentation with Reveal.js";
 
