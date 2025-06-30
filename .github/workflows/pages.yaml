@@ -20,7 +20,7 @@ jobs:
 
       - name: Enter Nix shell & build
         run: |
-          nix develop --command reveal-md slides.md --static _site
+          nix develop --command reveal-md slides.md --static _site --transition=slide
 
       - name: Debug _site
         run: |
