@@ -18,3 +18,15 @@ cd nix-presentation
 # Enter Nix shell and serve locally
 nix develop
 reveal-md slides.md --static _site
+```
+
+## Example
+```bash
+$ nix flake show
+
+$ nix build .#hello
+
+$ nix path-info .#hello
+
+$ nix store ls <path>
+```
