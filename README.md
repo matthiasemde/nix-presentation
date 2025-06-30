@@ -30,3 +30,5 @@ $ nix path-info .#hello
 
 $ nix store ls <path>
 ```
+
+Check out the presentation: https://matthiasemde.github.io/nix-presentation/
